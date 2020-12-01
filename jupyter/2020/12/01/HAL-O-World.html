@@ -186,7 +186,7 @@ window.onload = wrap_img;
 
 </p>
 <center>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/watch?v=9Q6sLbz37gk" frameborder="0" allowfullscreen=""></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/9Q6sLbz37gk" frameborder="0" allowfullscreen=""></iframe>
 </center>
 
 
@@ -235,31 +235,17 @@ window.onload = wrap_img;
 <a class="anchor" href="#Microsoft-Azure" aria-hidden="true"><span class="octicon octicon-link"></span></a>Microsoft Azure<a class="anchor-link" href="#Microsoft-Azure"> </a>
 </h3>
 <p>By far the most frustrating part of the set up for the course has nothing to do with Python, the notebook server, GitHub or fast.ai. In Chapter 2 of the book, the course encourages you to set up a Microsoft Azure account to get an API key so you can use their Image Search conginitive service to pull training images from the web to train a classifier model. Unfortunately the documentation on the site and the forum isn't incredibly helpful, so I am logging it here incase anyone should find it useful, but mainly if I have to do this again on another account I can remeber how and where to find everything.</p>
-<ol>
-<li>Go to: <a href="https://azure.microsoft.com/en-gb/services/cognitive-services/">https://azure.microsoft.com/en-gb/services/cognitive-services/</a>
-</li>
-</ol>
+<p>Go to: <a href="https://azure.microsoft.com/en-gb/services/cognitive-services/">https://azure.microsoft.com/en-gb/services/cognitive-services/</a></p>
 <p><img src="/im_sorry_dave/images/copied_from_nb/2020-12-01-HAL-O-World/azure_setup/01_cognitive_services.jpg" alt=""></p>
-<ol>
-<li>Scroll to the API's section of the page, and select "Web Search"</li>
-</ol>
+<p>Scroll to the API's section of the page, and select "Web Search"</p>
 <p><img src="/im_sorry_dave/images/copied_from_nb/2020-12-01-HAL-O-World/azure_setup/02_cognitive_services.jpg" alt=""></p>
-<ol>
-<li>this will redirect you to <a href="https://www.microsoft.com/en-us/bing/apis/bing-web-search-api">https://www.microsoft.com/en-us/bing/apis/bing-web-search-api</a>
-</li>
-</ol>
+<p>This will redirect you to <a href="https://www.microsoft.com/en-us/bing/apis/bing-web-search-api">https://www.microsoft.com/en-us/bing/apis/bing-web-search-api</a></p>
 <p><img src="/im_sorry_dave/images/copied_from_nb/2020-12-01-HAL-O-World/azure_setup/03_bing_web_search_api.jpg" alt=""></p>
-<ol>
-<li>Ensuring you already have an Azure account, this will take you to the console to create a Bing resource</li>
-</ol>
+<p>Ensuring you already have an Azure account, this will take you to the console to create a Bing resource</p>
 <p><img src="/im_sorry_dave/images/copied_from_nb/2020-12-01-HAL-O-World/azure_setup/04_microsoft_bingsearch_create.jpg" alt=""></p>
-<ol>
-<li>Once you have filled in the details and created your resource it will take you to your Azure dashboard</li>
-</ol>
+<p>Once you have filled in the details and created your resource it will take you to your Azure dashboard</p>
 <p><img src="/im_sorry_dave/images/copied_from_nb/2020-12-01-HAL-O-World/azure_setup/05_microsoft_bingsearch_resource.jpg" alt=""></p>
-<ol>
-<li>Go to the "Keys and Endpoint" tab, this is where you can find your Bing Image Search Api Key</li>
-</ol>
+<p>Go to the "Keys and Endpoint" tab, this is where you can find your Bing Image Search Api Key</p>
 <p><img src="/im_sorry_dave/images/copied_from_nb/2020-12-01-HAL-O-World/azure_setup/06_microsoft_bingsearch_key.jpg" alt=""></p>
 <p>Now that you have your API key and replaced the <code>XXX</code> value in the Chapter 2 notebook, there is once more piece of code required to get the code in Chapter to work, below is a re-write of the <code>search_images_bing</code> definition, simply paste it as a code cell above where it is being called in notebook. Everything should work for you now.</p>
 

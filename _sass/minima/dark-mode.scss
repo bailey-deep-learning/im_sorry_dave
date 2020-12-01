@@ -72,6 +72,12 @@ table td{
     color: $med-emph;
 }
 
+.Box {
+    background-color: $dark-grey;;
+    border: 1px #e1e4e8 solid;
+    border-radius: 6px;
+}
+
 .flash {
     color: $dark-grey !important;
     filter: brightness(80%);

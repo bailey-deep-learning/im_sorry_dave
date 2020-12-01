@@ -451,6 +451,8 @@ table th { background-color: #1e1e1e; border-color: #333333; color: rgba(255, 25
 
 table td { background-color: #121212; border-color: #333333; color: rgba(255, 255, 255, 0.69); }
 
+.Box { background-color: #121212; border: 1px #e1e4e8 solid; border-radius: 6px; }
+
 .flash { color: #121212 !important; filter: brightness(80%); }
 
 canvas { filter: invert(100%); }

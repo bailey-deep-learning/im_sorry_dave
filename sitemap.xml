@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://bailey-deep-learning.github.io/im_sorry_dave/markdown/2020/01/14/test-markdown-post.html</loc>
-<lastmod>2020-01-14T00:00:00-06:00</lastmod>
-</url>
-<url>
-<loc>https://bailey-deep-learning.github.io/im_sorry_dave/jupyter/2020/02/20/test.html</loc>
-<lastmod>2020-02-20T00:00:00-06:00</lastmod>
-</url>
-<url>
 <loc>https://bailey-deep-learning.github.io/im_sorry_dave/jupyter/2020/12/01/HAL-O-World.html</loc>
 <lastmod>2020-12-01T00:00:00-06:00</lastmod>
 </url>
 <url>
 <loc>https://bailey-deep-learning.github.io/im_sorry_dave/jupyter/2020/12/02/Greetings-Programs.html</loc>
 <lastmod>2020-12-02T00:00:00-06:00</lastmod>
+</url>
+<url>
+<loc>https://bailey-deep-learning.github.io/im_sorry_dave/jupyter/2020/12/03/These-Arent-The-Droids.html</loc>
+<lastmod>2020-12-03T00:00:00-06:00</lastmod>
 </url>
 <url>
 <loc>https://bailey-deep-learning.github.io/im_sorry_dave/about/</loc>

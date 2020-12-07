@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Isn’t it strange, to create something that hates you? | I’m sorry, Dave. I’m afraid I can’t do that.</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Isn’t it strange, to create something that hates you?" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="It can only be attributable to human error." />
+<meta property="og:description" content="It can only be attributable to human error." />
+<link rel="canonical" href="https://bailey-deep-learning.github.io/im_sorry_dave/jupyter/2020/12/07/Isnt_It_Strange.html" />
+<meta property="og:url" content="https://bailey-deep-learning.github.io/im_sorry_dave/jupyter/2020/12/07/Isnt_It_Strange.html" />
+<meta property="og:site_name" content="I’m sorry, Dave. I’m afraid I can’t do that." />
+<meta property="og:image" content="https://bailey-deep-learning.github.io/im_sorry_dave/images/posts/2020-12-07-Isnt-It-Strange/Isnt_It_Strange.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-12-07T00:00:00-06:00" />
+<script type="application/ld+json">
+{"url":"https://bailey-deep-learning.github.io/im_sorry_dave/jupyter/2020/12/07/Isnt_It_Strange.html","@type":"BlogPosting","headline":"Isn’t it strange, to create something that hates you?","dateModified":"2020-12-07T00:00:00-06:00","datePublished":"2020-12-07T00:00:00-06:00","image":"https://bailey-deep-learning.github.io/im_sorry_dave/images/posts/2020-12-07-Isnt-It-Strange/Isnt_It_Strange.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://bailey-deep-learning.github.io/im_sorry_dave/jupyter/2020/12/07/Isnt_It_Strange.html"},"description":"It can only be attributable to human error.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/im_sorry_dave/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://bailey-deep-learning.github.io/im_sorry_dave/feed.xml" title="I'm sorry, Dave. I'm afraid I can't do that." /><link rel="shortcut icon" type="image/x-icon" href="/im_sorry_dave/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+<a class="site-title" rel="author" href="/im_sorry_dave/">I'm sorry, Dave. I'm afraid I can't do that.</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger">
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewbox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+<a class="page-link" href="/im_sorry_dave/about/">About Me</a><a class="page-link" href="/im_sorry_dave/search/">Search</a><a class="page-link" href="/im_sorry_dave/categories/">Tags</a>
+</div>
+      </nav>
+</div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Isn't it strange, to create something that hates you?</h1>
+<p class="page-description">It can only be attributable to human error.</p>
+<p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-12-07T00:00:00-06:00" itemprop="datePublished">
+        Dec 7, 2020
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      10 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i> 
+      
+        <a class="category-tags-link" href="/im_sorry_dave/categories/#jupyter">jupyter</a>
+        
+      
+      </p>
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/bailey-deep-learning/im_sorry_dave/tree/master/_notebooks/2020-12-07-Isnt_It_Strange.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/im_sorry_dave/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/bailey-deep-learning/im_sorry_dave/master?filepath=_notebooks%2F2020-12-07-Isnt_It_Strange.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/im_sorry_dave/assets/badges/binder.svg" alt="Open In Binder">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/bailey-deep-learning/im_sorry_dave/blob/master/_notebooks/2020-12-07-Isnt_It_Strange.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/im_sorry_dave/assets/badges/colab.svg" alt="Open In Colab">
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+<li class="toc-entry toc-h1"><a href="#Data-Ethics">Data Ethics </a></li>
+<li class="toc-entry toc-h1">
+<a href="#Questionnaire">Questionnaire </a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#Further-Research:">Further Research: </a></li>
+<li class="toc-entry toc-h2"><a href="#Deep-Learning-in-Practice:-That's-a-Wrap!">Deep Learning in Practice: That's a Wrap! </a></li>
+</ul>
+</li>
+</ul>
+<!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2020-12-07-Isnt_It_Strange.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Data-Ethics">
+<a class="anchor" href="#Data-Ethics" aria-hidden="true"><span class="octicon octicon-link"></span></a>Data Ethics<a class="anchor-link" href="#Data-Ethics"> </a>
+</h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>This lesson we are looking at the Ethical implications of Data Science. Because there isn't any practical lesson, I will be leaving a link to the lecture here and filling in the questionnaire for future reference
+
+</p>
+<center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/krIVOb23EH8" frameborder="0" allowfullscreen=""></iframe>
+</center>
+
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Questionnaire">
+<a class="anchor" href="#Questionnaire" aria-hidden="true"><span class="octicon octicon-link"></span></a>Questionnaire<a class="anchor-link" href="#Questionnaire"> </a>
+</h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>Does ethics provide a list of "right answers"?</strong></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>There is no list of do’s and dont’s. Ethics is complicated, and context-dependent. It involves the perspectives of many stakeholders. Ethics is a muscle that you have to develop and practice. In this chapter, our goal is to provide some signposts to help you on that journey.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>How can working with people of different backgrounds help when considering ethical questions?</strong></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Different people’s backgrounds will help them to see things which may not be obvious to you. Working with a team is helpful for many “muscle building” activities, including this one.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>What was the role of IBM in Nazi Germany? Why did the company participate as it did? Why did the workers participate?</strong></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>IBM supplied the Nazis with data tabulation products necessary to track the extermination of Jews and other groups on a massive scale. This was driven from the top of the company, with marketing to Hitler and his leadership team. Company President Thomas Watson personally approved the 1939 release of special IBM alphabetizing machines to help organize the deportation of Polish Jews. Hitler awarded Watson a special “Service to the Reich” medal in 1937.</p>
+<p>But it also happened throughout the organization. IBM and its subsidiaries provided regular training and maintenance on-site at the concentration camps: printing off cards, configuring machines, and repairing them as they broke frequently. IBM set up categorizations on their punch card system for the way that each person was killed, which group they were assigned to, and the logistical information necessary to track them through the vast Holocaust system. IBM’s code for Jews in the concentration camps was 8, where around 6,000,000 were killed. Its code for Romanis was 12 (they were labeled by the Nazis as “asocials”, with over 300,000 killed in the Zigeunerlager , or “Gypsy camp”). General executions were coded as 4, death in the gas chambers as 6.</p>
+<p>The marketers were just doing what they could to meet their business development goals. Edwin Black, author of “IBM and the Holocaust”, said: “To the blind technocrat, the means were more important than the ends. The destruction of the Jewish people became even less important because the invigorating nature of IBM’s technical achievement was only heightened by the fantastical profits to be made at a time when bread lines stretched across the world.”</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>What was the role of the first person jailed in the Volkswagen diesel scandal?</strong></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>It was one of the engineers, James Liang, who just did what he was told.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>What was the problem with a database of suspected gang members maintained by California law enforcement officials?</strong></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>A database of suspected gang members maintained by California law enforcement officials was found to be full of errors, including 42 babies who had been added to the database when they were less than 1 year old (28 of whom were marked as “admitting to being gang members”). In this case, there was no process in place for correcting mistakes or removing people once they’d been added.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>Why did YouTube's recommendation algorithm recommend videos of partially clothed children to pedophiles, even though no employee at Google had programmed this feature?</strong></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The problem here is the centrality of metrics in driving a financially important system. When an algorithm has a metric to optimise, as you have seen, it will do everything it can to optimise that number. This tends to lead to all kinds of edge cases, and humans interacting with a system will search for, find, and exploit these edge cases and feedback loops for their advantage.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>What are the problems with the centrality of metrics?</strong></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>When an algorithm has a metric to optimise, as you have seen, it will do everything it can to optimise that number. This tends to lead to all kinds of edge cases, and humans interacting with a system will search for, find, and exploit these edge cases and feedback loops for their advantage.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>Why did Meetup.com not include gender in its recommendation system for tech meetups?</strong></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Evan Estola, lead machine learning engineer at Meetup, discussed the example of men expressing more interest than women in tech meetups. taking gender into account could therefore cause Meetup’s algorithm to recommend fewer tech meetups to women, and as a result, fewer women would find out about and attend tech meetups, which could cause the algorithm to suggest even fewer tech meetups to women, and so on in a self-reinforcing feedback loop</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>What are the six types of bias in machine learning, according to Suresh and Guttag?</strong></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ol>
+<li>
+<strong>Historical Bias</strong> arises when there is a misalignment between world as it is and the values or objectives to be encoded and propagated in a model. It is a normative concern with the state of the world, and exists even given perfect sampling and feature selection.</li>
+<li>
+<strong>Representation Bias</strong> arises while defining and sampling a development population. It occurs when the development population under-represents, and subsequently fails to generalize well, for some part of the use population.</li>
+<li>
+<strong>Measurement Bias</strong> arises when choosing and measuring features and labels to use; these are often proxies for the desired quantities. The chosen set of features and labels may leave out important factors or introduce groupor input-dependent noise that leads to differential performance.</li>
+<li>
+<strong>Aggregation Bias</strong> arises during model construction, when distinct populations are inappropriately combined. In many applications, the population of interest is heterogeneous and a single model is unlikely to suit all subgroups.</li>
+<li>
+<strong>Evaluation Bias</strong> occurs during model iteration and evaluation. It can arise when the testing or external benchmark populations do not equally represent the various parts of the use population. Evaluation bias can also arise from the use of performance metrics that are not appropriate for the way in which the model will be used.</li>
+<li>
+<strong>Deployment Bias</strong> occurs after model deployment, when a system is used or interpreted in inapppropriate ways.</li>
+</ol>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>Give two examples of historical race bias in the US.</strong></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>When doctors were shown identical files, they were much less likely to recommend cardiac catheterization (a helpful procedure) to Black patients.</li>
+<li>When bargaining for a used car, Black people were offered initial prices $700 higher and received far smaller concessions.</li>
+<li>Responding to apartment rental ads on Craigslist with a Black name elicited fewer responses than with a white name.</li>
+<li>An all-white jury was 16 percentage points more likely to convict a Black defendant than a white one, but when a jury had one Black member it convicted both at the same rate.</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>Where are most images in ImageNet from?</strong></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The vast majority of the images are from the United States and other Western countries, leading to models trained on ImageNet performing worse on scenes from other countries and cultures</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>In the paper <a href="https://scholar.harvard.edu/files/sendhil/files/aer.p20171084.pdf">"Does Machine Learning Automate Moral Hazard and Error"</a> why is sinusitis found to be predictive of a stroke?</strong></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>We haven’t really measured stroke, which occurs when a region of the brain is denied oxygen due to an interruption in the blood supply. What we’ve measured is who had symptoms, went to a doctor, got the appropriate tests, and received a diagnosis of stroke. Actually having a stroke is not the only thing correlated with this complete list—it's also correlated with being the kind of person who actually goes to the doctor (which is influenced by who has access to healthcare, can afford their co-pay, doesn't experience racial or gender-based medical discrimination, and more)</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>What is representation bias?</strong></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Representation Bias arises while defining and sampling a development population. It occurs when the development population under-represents, and subsequently fails to generalize well, for some part of the use population.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>How are machines and people different, in terms of their use for making decisions?</strong></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Machines and the Neural Networks we build with them only have the context we provide from the Data, this Data can be incompl</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>Is disinformation the same as "fake news"?</strong></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Some people think disinformation is primarily about false information or fake news, but in reality, disinformation can often contain seeds of truth, or half-truths taken out of context. Ladislav Bittman was an intelligence officer in the USSR who later defected to the US and wrote some books in the 1970s and 1980s on the role of disinformation in Soviet propaganda operations. In The KGB and Soviet Disinformation (Pergamon) he wrote, "Most campaigns are a carefully designed mixture of facts, half-truths, exaggerations, and deliberate lies."</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>Why is disinformation through auto-generated text a particularly significant issue?</strong></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>What are the five ethical lenses described by the Markkula Center?</strong></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>
+<strong>The rights approach:</strong> Which option best respects the rights of all who have a stake?</li>
+<li>
+<strong>The justice approach:</strong> Which option treats people equally or proportionately?</li>
+<li>
+<strong>The utilitarian approach:</strong> Which option will produce the most good and do the least harm?</li>
+<li>
+<strong>The common good approach:</strong> Which option best serves the community as a whole, not just some members?</li>
+<li>
+<strong>The virtue approach:</strong> Which option leads me to act as the sort of person I want to be?</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>Where is policy an appropriate tool for addressing data ethics issues?</strong></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Policies are an appropriate tool for addressing data ethics issues when is likely that design fixes, self regulation and technical approaches to addressing problems, involving ethical uses of Machine Learning are not working.</p>
+<p>While such measures can be useful, they will not be sufficient to address the underlying problems that have led to our current state. For example, as long as it is incredibly profitable to create addictive technology, companies will continue to do so, regardless of whether this has the side effect of promoting conspiracy theories and polluting our information ecosystem. While individual designers may try to tweak product designs, we will not see substantial changes until the underlying profit incentives changes.</p>
+<p>Because of the above it is almost certain that policies will have to be created by government to address these issues.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Further-Research:">
+<a class="anchor" href="#Further-Research:" aria-hidden="true"><span class="octicon octicon-link"></span></a>Further Research:<a class="anchor-link" href="#Further-Research:"> </a>
+</h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ol>
+<li>Read the article "What Happens When an Algorithm Cuts Your Healthcare". How could problems like this be avoided in the future?</li>
+<li>Research to find out more about YouTube's recommendation system and its societal impacts. Do you think recommendation systems must always have feedback loops with negative results? What approaches could Google take to avoid them? What about the government?</li>
+<li>Read the paper <a href="https://arxiv.org/abs/1301.6822">"Discrimination in Online Ad Delivery"</a>. Do you think Google should be considered responsible for what happened to Dr. Sweeney? What would be an appropriate response?</li>
+<li>How can a cross-disciplinary team help avoid negative consequences?</li>
+<li>Read the paper "Does Machine Learning Automate Moral Hazard and Error". What actions do you think should be taken to deal with the issues identified in this paper?</li>
+<li>Read the article "How Will We Prevent AI-Based Forgery?" Do you think Etzioni's proposed approach could work? Why?</li>
+<li>Complete the section "Analyze a Project You Are Working On" in this chapter.</li>
+<li>Consider whether your team could be more diverse. If so, what approaches might help?</li>
+</ol>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Deep-Learning-in-Practice:-That's-a-Wrap!">
+<a class="anchor" href="#Deep-Learning-in-Practice:-That's-a-Wrap!" aria-hidden="true"><span class="octicon octicon-link"></span></a>Deep Learning in Practice: That's a Wrap!<a class="anchor-link" href="#Deep-Learning-in-Practice:-That's-a-Wrap!"> </a>
+</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Make sure that you have completed the following steps:</p>
+<ul>
+<li>Connect to one of the GPU Jupyter servers recommended on the book's website. <img class="emoji" title=":heavy_check_mark:" alt=":heavy_check_mark:" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" height="20" width="20">
+</li>
+<li>Run the first notebook yourself. <img class="emoji" title=":heavy_check_mark:" alt=":heavy_check_mark:" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" height="20" width="20">
+</li>
+<li>Upload an image that you find in the first notebook; then try a few different images of different kinds to see what happens. <img class="emoji" title=":heavy_check_mark:" alt=":heavy_check_mark:" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" height="20" width="20">
+</li>
+<li>Run the second notebook, collecting your own dataset based on image search queries that you come up with. <img class="emoji" title=":heavy_check_mark:" alt=":heavy_check_mark:" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" height="20" width="20">
+</li>
+<li>Think about how you can use deep learning to help you with your own projects, including what kinds of data you could use, what kinds of problems may come up, and how you might be able to mitigate these issues in practice. <img class="emoji" title=":heavy_check_mark:" alt=":heavy_check_mark:" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" height="20" width="20">
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+  </div>
+<!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js" repo="bailey-deep-learning/im_sorry_dave" issue-term="title" label="blogpost-comment" theme="github-light" crossorigin="anonymous" async>
+</script><a class="u-url" href="/im_sorry_dave/jupyter/2020/12/07/Isnt_It_Strange.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/im_sorry_dave/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/im_sorry_dave/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/im_sorry_dave/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>A deep learning journal of sorts</p>
+      </div>
+    </div>
+
+    <div class="social-links">
+<ul class="social-media-list">
+<li><a rel="me" href="https://github.com/fastai" title="fastai"><svg class="svg-icon grey"><use xlink:href="/im_sorry_dave/assets/minima-social-icons.svg#github"></use></svg></a></li>
+<li><a rel="me" href="https://twitter.com/fastdotai" title="fastdotai"><svg class="svg-icon grey"><use xlink:href="/im_sorry_dave/assets/minima-social-icons.svg#twitter"></use></svg></a></li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
